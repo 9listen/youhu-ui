@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "iconfont";
+  /* Project id  */
+  src: url('iconfont.ttf?t=1655862881272') format('truetype');
+}
+
+/* 选择所有带hm-icon-的属性 */
+[class*='hm-icon-'] {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hm-icon-xingxing:before {
+  content: "\e62b";
+}
+
+.hm-icon-xinfeng:before {
+  content: "\e61b";
+}
+
+.hm-icon-bianji:before {
+  content: "\e60e";
+}
+
+.hm-icon-shanchu:before {
+  content: "\e718";
+}
+
+.hm-icon-duigou:before {
+  content: "\ebe6";
+}
+
+.hm-icon-sousuo_o:before {
+  content: "\eb86";
+}
+
+.hm-icon-close:before {
+  content: "\e747";
+}
+
+.hm-icon-qingkong:before {
+  content: "\e623";
+}
+
+.hm-icon-yanjing:before {
+  content: "\e66d";
+}
